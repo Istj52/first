@@ -6,4 +6,4 @@ def fibonacci_numbers (x):
         return (fibonacci_numbers(x-1)+fibonacci_numbers(x-2))
 a = int (input ("Enter the first number: "))
 b = int (input ("Enter the second number: "))
-print (fibonacci_numbers(a)-fibonacci_numbers(b))
+print (fibonacci_numbers(a)+fibonacci_numbers(b))
